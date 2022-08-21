@@ -5,35 +5,80 @@ body{
     margin: 0;
 }
 
+/*Top Banner Section*/
+
 h1{
-    font-size:48px;
+    font-size:40px;
 }
 
-span{
+.best_color{
     color:#FFA500;
 
 }
 
-.top_banner{
+.top_banner_section{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 80px;
 }
 
 .half_width{
     width: 50%;
-    padding-left: 7%;
+    padding:0 7%;
 }
 
 .half_width img{
-    width: 85%;
+    width: 90%;
 }
 
 .hire_me_btn{
-    padding: 2% 7%;
+    padding: 1.8% 7%;
     background-color: #FF7254;
     color:white;
     font-weight: 700;
     border-radius: 10px;
     text-decoration: none;
+}
+
+/*Dream Big Section*/
+
+.dream_big_section{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/*experience section*/
+
+.experiences_section{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.experiences_area{
+  margin: 5% 0;
+}
+
+.experiences_item{
+    width: 40%;
+    margin-left:5%;
+    padding: 30px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+}
+
+.border_left{
+    border-left:7px solid #FF6347;
+}
+
+.border_right{
+    border-left:7px solid #0000FF;
+}
+
+footer{
+    text-align: center;
 }
